@@ -1,0 +1,7 @@
+#!/bin/sed -f
+s/\.\ /\.\ [CLS] [SEP] /g
+s/\."\ /\."\ [CLS] [SEP] /g
+s/\!\ /\!\ [CLS] [SEP] /g
+s/\?"\ /\?"\ [CLS] [SEP] /g
+s/\?\ /\?\ [CLS] [SEP] /g
+s/\!"\ /\!"\ [CLS] [SEP] /g
